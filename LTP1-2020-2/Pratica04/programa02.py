@@ -9,4 +9,9 @@
 numero = int(input('informe um numero:'))
 #Calcula o resto da divisao do numero por 2
 resto = numero % 2
+#Olha para o valor do resto
+if resto == 0:
+ print(numero, 'é par!')
+else:
+   print(numero, 'é impar!')
 
